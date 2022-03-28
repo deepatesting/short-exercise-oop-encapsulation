@@ -6,10 +6,10 @@ public class WeatherReporter {
 
     private String location;
     private double temperature;
-    private final double FARENHEIT = (9.0 / 5.0);
-    private final int FHEIT32 = 32;
-    private final int MAX_VALUE = 30;
-    private final int MIN_VALUE = 10;
+    private static final double FARENHEIT = (9.0 / 5.0);
+    private static final int FHEIT32 = 32;
+    private static final int MAX_VALUE = 30;
+    private static final int MIN_VALUE = 10;
 
     public WeatherReporter(String location, double temperature) {
         this.location = location;
